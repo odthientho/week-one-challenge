@@ -1,12 +1,27 @@
+/* UNIVERSAL SELECTORS */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* ELEMENT SELECTORS */
+
 body {
     background-color: #d9dcd6;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* HEADER */
 
 header {
     padding: 20px;
@@ -41,6 +56,9 @@ header nav ul li {
     margin-left: 25px;
 }
 
+/* MAIN */
+
+    /* BANNER IMAGE DISPLAYING A BIG BANNER PICTURE */
 .banner-image {
     height: 800px;
     width: 100%;
@@ -50,15 +68,7 @@ header nav ul li {
     background-position: center;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+    /* CLASS SELECTORS ABOUT FLOATS */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,6 +79,32 @@ p {
     margin-left: 25px;
 }
 
+    /* LEFT COLUMN WITH COMPANY SERVICES SECTIONS */
+.company-services {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.company-service {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.company-service img {
+    max-height: 200px;
+}
+
+.company-service h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+    /* RIGHT COLUMN WITH COMPANY BENEFITS ASIDE*/
 .company-benefits {
     margin-right: 20px;
     padding: 20px;
@@ -96,29 +132,7 @@ p {
     max-width: 150px;
 }
 
-.company-services {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.company-service {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.company-service img {
-    max-height: 200px;
-}
-
-.company-service h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* FOOTER */
 
 footer {
     padding: 30px;
